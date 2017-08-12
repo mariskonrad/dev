@@ -48,3 +48,13 @@
 1. markdown: sintaxe básica de markdown. Markdown é uma linguagem de marcação usada para estrutrar texto. Existem ferramentas que convertem texto em markdown para HTML, como o Markdown Preview do Atom e Github.
 
 1. github: criamos repositório.
+
+1. git:
+    - `git init`: rodar uma vez no projeto para iniciar o repositório git. Cria a pasta `.git`
+    - `git status`: mostra o estado de cada arquivo, se foi alterado, se foi criado etc.
+    - `git diff`: mostra o que foi alterado em cada arquivo, linhas adicionadas e linhas removidas.
+    - `git add`: seleciona quais arquivos queremos fazer commit. Se quiser selecionar todos os arquivos da pasta do projeto, rodar `git add .`
+    - `git commit`: cria o ponto no histórico do projeto. Esse comando vai abrir um editor de texto para digitar a mensagem do commit. Para especificar a mensagem diretamente no comando, usar `git commit -m 'mensagem do commit'`.
+    - `git log`: mostra o histórico de commits.
+    - `git pull`: baixa as alterações que estão no repositório remoto (GitHub).
+    - `git push`: envia as alterações locais para o repositório remoto.
